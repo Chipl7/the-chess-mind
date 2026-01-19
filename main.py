@@ -1,10 +1,11 @@
 import chess
+from chess_utils import print_board
 
-board = chess.Board()
 
-print(board)
+def main():
+    board = chess.Board()
+    print(print_board(board))
 
-move = chess.Move.from_uci("e2e4")
-board.push(move)
 
-print(board)
+if __name__ == "__main__":
+    main()
