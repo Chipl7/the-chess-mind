@@ -1,3 +1,5 @@
 import chess
 
-def 
+
+def legal_moves(board):
+    return board.legal_move
